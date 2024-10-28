@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="practice2.js" type="text/javascript"></script>
+    <style>
+        #paragraph {
+        border-style: solid;
+        border-width: 10;
+        border-color: black;
+        background-color: white;
+        color: black;
+        font-size: 18pt;
+        }
+        </style>        
+</head>
+
+<body>
+    <h1>EECS 348 Lab 6 Practice 2</h1>
+    <p id="paragraph">
+        The quick brown fox jumps over the lazy dog.
+    </p>
+    Border R(0-255): <input type="text" id="borderR" value=""><br><br>
+    Border G(0-255): <input type="text" id="borderG" value=""><br><br>
+    Border B(0-255): <input type="text" id="borderB" value=""><br><br>
+    Border Width: <input type="text" id="borderWidth" value=""><br><br>
+    Background R(0-255): <input type="text" id="backR" value=""><br><br>
+    Background G(0-255): <input type="text" id="backG" value=""><br><br>
+    Background B(0-255): <input type="text" id="backB" value=""><br><br>
+    <button onclick="updateParagraph()">Change colors!</button>
+
+</body>
+
+</html>
